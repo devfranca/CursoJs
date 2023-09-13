@@ -1,10 +1,10 @@
-// function saudacao(nome){
-//     return `Bom dia, ${nome}!`; // faz a funcao retornar algo, originalmente uma funcao criada nao retorna nada (undefined)
-// }
+function saudacao(nome){
+    return `Bom dia, ${nome}!`; // faz a funcao retornar algo, originalmente uma funcao criada nao retorna nada (undefined)
+}
 
 
-// const variavel =  saudacao('yan');
-// console.log(variavel) 
+const variavel =  saudacao('yan');
+console.log(variavel) 
 
 
             //se nenhum valor for enviado a engine assumira esse valor como padrao
@@ -13,12 +13,12 @@ function soma(x = 1, y = 1){
     return resultado;
 }
 
-// const resultado = soma(3,3);
-// console.log(resultado);
+const resultado = soma(3,3);
+console.log(resultado);
 
-// console.log(soma(2,3));
-// console.log(soma(2,4));
-// console.log(soma(2,5));
+console.log(soma(2,3));
+console.log(soma(2,4));
+console.log(soma(2,5));
 
 //estilo funcao normais
 const raiz = function(numero){
