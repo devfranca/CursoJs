@@ -3,7 +3,6 @@
 || -> true && false -> vai retornar "o valor verdadeiro"
 
 FALSY
-
 false
 '' "" ´´
 undefined // null
