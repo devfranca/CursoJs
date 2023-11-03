@@ -6,7 +6,7 @@ const data = new Date(0 + tresHoras + umDia); // marco 0 ou epoca unix
 const data = new Date(2023,10,14); // ano,mes,dia,hora,minuto, segundos, milisegundos
 console.log(data.toString());
 
-const data = new Date('2023-11-03 14:15:23');
+const data = new Date('2023-11-03 14:15:24');
 
 console.log('Dia', data.getDate());
 console.log('Mês', data.getMonth() + 1); // mes comeca do 0
