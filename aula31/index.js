@@ -7,7 +7,8 @@
  let nome = 'Yan'; // criando
  var nome2 = 'Yan';
 
- var nome2= 'Gabriel';
+ var nome2= 'Gabriel'; // redeclarando
+
  console.log(nome,nome2)
  if(verdadeira){
     let nome = 'Gabriel'; // criando
