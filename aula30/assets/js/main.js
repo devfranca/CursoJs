@@ -86,13 +86,13 @@
     const nomeDoMes =  foundMonth(monthDay);
 
     if(hours<10){
-     hours = `0${hours}`
-    };
+        hours = `0${hours}`
+        };
 
     if(minutes<10){
      minutes = `0${minutes}`
     };
 const textoConteudo = document.querySelector('.texto')
-textoConteudo.innerHTML +=`<p>${weekDayText}, ${weekDay} de ${nomeDoMes} de ${year} Exatamente ${hours}:${minutes}</p>`
+textoConteudo.innerHTML +=`<p>${weekDayText}, ${data.getDate()} de ${nomeDoMes} de ${year} Exatamente ${hours}:${minutes}</p>`
 
 
