@@ -7,11 +7,11 @@ const elementos = [
 const texto = document.querySelector('.container');
 
 const div = document.createElement('div')
-// div.appendChild(texto);
 
+              //0
 for (let i = 0; i < elementos.length; i++) {
-    let {tag,texto} = elementos[i];
-    let criarTag =  document.createElement(tag);
+    let { tag, texto } = elementos[i];
+    let criarTag = document.createElement(tag);
     criarTag.innerHTML = texto;
     div.appendChild(criarTag)
 };
