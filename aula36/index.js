@@ -18,6 +18,6 @@ const pessoas = {
     idade: 20
 };
 
-for (let chaves in pessoas) {
-    console.log(pessoas[chaves])
+for (let chave in pessoas) {
+    console.log(pessoas[chaveS])
 }
