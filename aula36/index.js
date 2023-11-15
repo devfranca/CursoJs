@@ -1,15 +1,15 @@
 // for in -> lê os indices ou chaves do objeto.
 
 
-// const frutas = ['Uva', 'Maçã', 'Pera'];
+const frutas = ['Uva', 'Maçã', 'Pera'];
 
-// for (let i = 0; i < frutas.length; i++){
-//     console.log(frutas[i]);
-// };
+for (let i = 0; i < frutas.length; i++){
+    console.log(frutas[i]);
+};
 
-// for( let index in frutas){
-//     console.log(frutas[index])
-// }
+for( let index in frutas){
+    console.log(frutas[index])
+}
 
 
 const pessoas = {
@@ -19,5 +19,5 @@ const pessoas = {
 };
 
 for (let chave in pessoas) {
-    console.log(pessoas[chaveS])
+    console.log(pessoas[chave])
 }
