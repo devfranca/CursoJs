@@ -28,12 +28,12 @@ const arrowFuntion = () => {
 }
 arrowFuntion();
 
-//denntro de um objeto
+//dentro de um objeto
 
 const objeto = {
-    falar(){
+    talking(){
         console.log('hi iam talking')
     }
 }
 
-objeto.falar();
+objeto.talking();
